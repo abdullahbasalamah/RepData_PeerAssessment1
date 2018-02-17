@@ -90,8 +90,8 @@ median_beforena<-median(datano1$steps)
 mean_afterna<-mean(datano3$steps)
 median_afterna<-median(datano3$steps)
 par(mfrow=c(1,2))
-with(datano1,hist(steps,col="red",main="before impute the missing value"))
-with(datano3,hist(steps,col="blue",main="after impute the missing value"))
+with(datano1,hist(steps,col="red",main="before impute the missing value",ylim=c(0,30)))
+with(datano3,hist(steps,col="blue",main="after impute the missing value",ylim=c(0,30)))
 ```
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
