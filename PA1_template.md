@@ -96,7 +96,7 @@ with(datano3,hist(steps,col="blue",main="after impute the missing value"))
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
 
-* The mean and median before and after imputed the missing value
+* The mean and median before and after imputed the missing value  
 a.  **Mean** before imputed missing value is **1.0766189 &times; 10<sup>4</sup>** and after is **1.0766189 &times; 10<sup>4</sup>**  
 b.  **Median** before imputed missing value is **10765** and after is **1.1015 &times; 10<sup>4</sup>**  
 
