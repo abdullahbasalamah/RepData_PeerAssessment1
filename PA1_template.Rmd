@@ -24,6 +24,7 @@ datano1<-aggregate(steps ~ date,datause,sum)
 par(mfrow=c(1,1))
 with(datano1,hist(steps,col="red"))
 ```
+
 3. Calculate the mean and median for total number steps per day
 ```{r echo=TRUE,result="hide"}
 mean_no1<-round(mean(datano1$steps),1)
@@ -72,7 +73,7 @@ with(datano1,hist(steps,col="red",main="before impute the missing value"))
 with(datano3,hist(steps,col="blue",main="after impute the missing value"))
 ```
 
-* The mean and median before and after imputed the missing value
+* The mean and median before and after imputed the missing value  
 a.  **Mean** before imputed missing value is **`r mean_beforena`** and after is **`r mean_afterna`**  
 b.  **Median** before imputed missing value is **`r median_beforena`** and after is **`r median_afterna`**  
 
