@@ -30,6 +30,7 @@ with(datano1,hist(steps,col="red"))
 ```
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+
 3. Calculate the mean and median for total number steps per day
 
 ```r
